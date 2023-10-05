@@ -1,0 +1,283 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;600&family=Poppins:wght@100;200;400;500;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Pixelify+Sans:wght@400;600&family=Poppins:wght@100;200;400;500;600;800&display=swap');
+*/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;600;700&family=Dosis:wght@700;800&family=Pixelify+Sans:wght@400;600&family=Poppins:wght@100;200;400;500;600;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/*
+.greeting-container{
+    width: 100%;
+    height: 500px;
+    background: url(5073414.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-header{
+    width: 100%;
+    height: 100px;
+}
+.logo{
+    font-family: 'Pixelify Sans';
+    font-size: 50px;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.greeting-container h6{
+    margin-top: 200px
+    
+}
+
+.main-header,
+.header-logo,
+.logo,
+.header-menu{
+    background: transparent;
+}*/
+
+body .container{
+    width: 100%;
+    height: 800px;
+    color: #fff;
+    background: url(brick-wall-with-grunge-style-effect.jpg) no-repeat;
+}
+
+.container .main-header{
+    width: 100%;
+    height: 100px;
+    background: transparent;
+    display: flex;
+
+}
+.header-logo{
+    width: 80%;
+    background: transparent;
+    display: flex;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.login-action, .login-action-btn{
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+    width: 20%;
+    color: #d1d1d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
+    text-decoration: none;
+}
+.login-action:hover{
+    cursor: pointer;
+}
+
+.container .logo{
+    width: 100%;
+    font-family: 'Pixelify Sans';
+    font-size: 50px;
+    color: rgb(0, 136, 248);
+}
+.container .logo:hover{
+    color: rgb(255, 255, 255);
+    transition: 2s;
+}
+
+
+.greeting-container{
+    width: 100%;
+    height: 300px;
+}
+.greeting-container .greeting-heading{
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
+    color: rgb(129, 129, 129);
+    padding-left: 225px;
+    padding-top: 150px;
+    padding-bottom: 10px;
+    letter-spacing: 4px;
+}
+.greeting-container .greeting-quotes{
+    font-family: 'Comfortaa';
+    font-size: 50px;
+    padding-left: 220px;
+    line-height: 70px;
+    letter-spacing: 5px;
+}
+/*
+.greeting-container .action-btn .btn{
+    width: 50px;
+    font-size: 25px;
+    font-family: 'Dosis', sans-serif;
+    padding: 20px 60px ;
+    border: 2px solid #fff;
+    background: transparent;
+    text-decoration: none;
+    color: #fff;
+}*/
+
+.greeting-container .action-btn{
+    display: flex;
+    padding-left: 220px;
+    gap: 25px;
+}
+.greeting-container .action-btn .btn:hover{
+    background-color: rgba(255, 255, 255);
+    color: #000000;
+    transition: 1s;
+}
+.action-btn{
+    padding-top: 100px;
+}
+.action-btn button{
+    width: 250px;
+    height: 50px;
+    font-size: 16px;
+    border: 2px solid rgb(255, 255, 255);
+    background: transparent;
+}
+.action-btn .btn-about,
+.btn-project{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+.action-btn button:hover{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 136, 248);
+}
+/*
+.btn-about button:hover{
+    background-color: #fff;
+    color: #000000;
+}
+
+
+.action-btn:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255);
+}*/
+
+.login-container{
+    width: 100%;
+    height: 100vh;
+    background: black;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    padding-left: 200px;
+}
+.login-form{
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.login-form h1{
+    text-align: center;
+    padding:15px 15px;
+    font-size: 40px;
+    font-family: 'Dosis', sans-serif;
+    color: #ffffff;
+}
+
+.login-form .input-box{
+    position: relative;
+    width: 300px;
+    height: 30px;
+    margin: 30px 0;
+
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-left: 35px ;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    color: #fff;
+}
+
+.remember-forgot{
+    font-family: Poppins, sans-serif;
+    color: #fff;
+    display: flex;
+    padding-top: 10px;
+    padding-left: 20px; 
+    padding-bottom: 15px;
+}
+
+.remember-forgot a {
+    padding-left: 80px;
+    text-decoration: none;
+    color: #fff;
+}
+.btn-login button{
+    width: 250px;
+    height: 50px;
+    background-color: rgb(0, 136, 248);
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border: 2px solid rgb(0, 136, 248);
+    border-radius: 10px;
+    margin-top: 10px;
+    color: #fff;
+}
+.btn-login{
+    padding-left: 70px;
+}
+
+.register-link{
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    font-family: Poppins, sans-serif;
+}
+
+.register-link a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+
+}
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.quick-signup{
+    margin-left: 250px;
+    padding-top: 5px;
+    width: 250px;
+    height: 60px;
+    background: transparent;
+    border: 2px solid rgb(0, 136, 248);
+    float: left;
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+.quick-signup a {
+    text-decoration: none;
+    color: #fff;
+}
+.quick-signup:hover{
+    cursor: pointer;
+    background-color: rgb(0, 136, 248);
+}
